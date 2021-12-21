@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-right: 20px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+  cursor: pointer;
+}
+
+.ship {
+  background-color: blue;
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+}
+
+.hide {
+  background-color: silver;
+}
+
+.shot {
+  background-color: red;
+}
+
+.shipDie {
+  background-color: black;
+}
